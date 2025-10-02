@@ -1,0 +1,171 @@
+/* =================== ENCABEZADO DE PÁGINA ================== */
+/* Paleta de colores blue
+#154D71 Azul oscuro
+#1C6EA4 Azul claro
+#33A1E0 Celeste
+#FFF9AF Amarillo claro*/
+
+* {
+  color:#FFF9AF;
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url('../media/BAnner-Programador-Moderno.png');
+  background-size: 100%;
+  background-position: center;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-color: #154D71;
+  position:sticky;
+  top:0;
+  z-index: 1000;
+}
+
+.container {
+  display: flex; /* Activa Flexbox */
+  justify-content:space-between;  /*Separa el logo del menú */
+  align-items: center; /* Centra verticalmente los elementos */
+  width: 100%;
+}
+
+.logo {
+  margin-left: -200px; /* Empuja el logo a la izquierda */
+  width: 130px;
+}
+
+nav ul {
+  list-style: none; /* Quita las viñetas de la lista */
+  display: flex; /* Para que los items <li> se pongan en línea */
+  padding: 0; /* Elimina el padding por defecto de la ul */
+  margin-right:500px;
+}
+
+nav li {
+  margin-left: 40px; /* Espacio entre los elementos del menú */
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  text-align: center;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: #ffffff;
+}
+
+/* =================== CUERPO DE LA PÁGINA ================== */
+
+main {
+    /* margin-left: 0px; */
+    background-color: #1C6EA4;
+    padding: 25px;
+    text-align: center;
+}
+
+/* --- Botón hamburguesa --- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+
+    /* Fondo gris como el menú */
+  background: #444;
+  padding: 10px;         /* espacio alrededor de las barritas */
+  border-radius: 8px;    /* esquinas redondeadas */
+  margin-left: 120px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .menu {
+    display: none;               /* oculto en móvil por defecto */
+    flex-direction: column;
+    background: #444;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  .menu.active {
+    display: flex;               /* se muestra cuando se hace clic */
+  
+  }
+  .hamburger {
+    display: flex;
+    margin-left: 120px;
+  }
+}
+
+.card-img-top{
+  height: 180px;
+  object-fit:cover;
+}
+
+.card-text {
+  color: #154D71;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+table{
+  margin: 20px auto;
+}
+
+.sobremi {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10px;
+}
+
+.destacado {
+    width: 20rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0,0,0,4);
+}
+
+.card{
+  box-shadow: 0px 4px 30px rgba(0,0,0,4);
+}
+
+/* ====================== PIE DE PÁGINA ====================== */
+
+footer {
+  background-color: #33A1E0;
+}
+
+.imgpie {
+  width: 25px;
+  margin-right: 15px;
+}
+footer div{
+  display: flex;
+  justify-content: center;
+  align-items:normal;
+  width: 50%;
+}
+footer a{
+  text-decoration: none;
+}
+footer p{
+  font-style: italic;
+}
+
+/* ====================== INDEX ====================== */
+
+.mimapa{
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px rgba(0,0,0,4);
+}

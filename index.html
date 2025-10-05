@@ -14,10 +14,15 @@
     <header>
         <div class="container">
             <img src="./media/robotlogo.png" class="logo" alt="Logo">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <nav>
-                <ul>
+                <ul class="menu" id="menuLinks">
                     <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>Home</a></li>
-                    <li><a href="./page/servicios.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M151.33-370.67q-46.66 0-79-32.47Q40-435.61 40-482t32.47-78.86q32.47-32.47 78.86-32.47V-702q0-27 19.84-46.83Q191-768.67 218-768.67h150.67q0-46.66 32.47-79Q433.61-880 480-880t78.86 32.47q32.47 32.47 32.47 78.86H742q27 0 46.83 19.84Q808.67-729 808.67-702v108.67q46.66 0 79 32.47Q920-528.39 920-482t-32.47 78.86q-32.47 32.47-78.86 32.47v184q0 27-19.84 46.84Q769-120 742-120H218q-27 0-46.83-19.83-19.84-19.84-19.84-46.84v-184ZM348.82-464q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.65-33.01-13.66-13.5-33.17-13.5t-33.01 13.65Q302-530.02 302-510.51t13.66 33.01q13.65 13.5 33.16 13.5Zm262.67 0q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.66-33.01-13.65-13.5-33.16-13.5-19.51 0-33.01 13.65-13.5 13.66-13.5 33.17t13.65 33.01q13.66 13.5 33.17 13.5ZM314.67-283.33h330.66V-350H314.67v66.67ZM218-186.67h524V-702H218v515.33Zm262-258Z"/></svg>Productos</a></li>
+                    <li><a href="./page/productos.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M151.33-370.67q-46.66 0-79-32.47Q40-435.61 40-482t32.47-78.86q32.47-32.47 78.86-32.47V-702q0-27 19.84-46.83Q191-768.67 218-768.67h150.67q0-46.66 32.47-79Q433.61-880 480-880t78.86 32.47q32.47 32.47 32.47 78.86H742q27 0 46.83 19.84Q808.67-729 808.67-702v108.67q46.66 0 79 32.47Q920-528.39 920-482t-32.47 78.86q-32.47 32.47-78.86 32.47v184q0 27-19.84 46.84Q769-120 742-120H218q-27 0-46.83-19.83-19.84-19.84-19.84-46.84v-184ZM348.82-464q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.65-33.01-13.66-13.5-33.17-13.5t-33.01 13.65Q302-530.02 302-510.51t13.66 33.01q13.65 13.5 33.16 13.5Zm262.67 0q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.66-33.01-13.65-13.5-33.16-13.5-19.51 0-33.01 13.65-13.5 13.66-13.5 33.17t13.65 33.01q13.66 13.5 33.17 13.5ZM314.67-283.33h330.66V-350H314.67v66.67ZM218-186.67h524V-702H218v515.33Zm262-258Z"/></svg>Productos</a></li>
                     <li><a href="./page/acercademi.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M480-400q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400ZM320-240h320v-23q0-24-13-44t-36-30q-26-11-53.5-17t-57.5-6q-30 0-57.5 6T369-337q-23 10-36 30t-13 44v23ZM720-80H240q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80Zm0-80v-446L526-800H240v640h480Zm-480 0v-640 640Z"/></svg>Sobre mi</a></li>
                 </ul>
             </nav>
@@ -49,20 +54,21 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>
-        </div>
-        <div>
-            <h3> No solo es importante reparar </h3>
-        </div>
-        <div>
-            <h3> Si no también mantener </h3>
-        </div>
-        <div>
-            <h3> y ademas educar concientemente </h3>
-        </div>
-        <div>
-            <h4> Aquí puedes ver los servicios que ofrecemos, y ademas, en lo que te podemos ayudar para que aprendas y alargues la vida útil de tu equipo.</h4>
-        </div>
+        </div><br>
 
+        <div>
+            <h2>Arma tu kit de robótica, hazte especialista en diseño de circuitos y programación arduino con alguno de nuestros productos pensados para todos los niveles con documentación digital desde nivel principiante hasta avanzado.
+            </h3>
+        </div><br>
+        <div>
+            <h3> Robot Otto por dentro </h2>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CTU5aFB1NvE?si=ANEpvUdBBwo1zsnR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div><br>
+            <p>Nuestra ubicación</p>
+        </div>
         <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.610407704279!2d-58.83310202379137!3d-27.481385817205624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456c9de0563013%3A0xa023e20218610826!2sInstituto%20Superior%20San%20Jos%C3%A9%20I-27!5e0!3m2!1ses-419!2sar!4v1758893999809!5m2!1ses-419!2sar" class="mimapa" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -82,7 +88,23 @@
         <div>
             <p><span>© 2025 Mi Sitio Web</span></p>
         </div>
-    </footer>    
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuLinks = document.getElementById('menuLinks');
+
+        // abrir/cerrar menú al hacer clic en hamburguesa
+        hamburger.addEventListener('click', () => {
+        menuLinks.classList.toggle('active');
+        });
+
+        // cerrar menú al hacer clic en cualquier enlace
+        document.querySelectorAll('#menuLinks a').forEach(link => {
+        link.addEventListener('click', () => {
+            menuLinks.classList.remove('active');
+        });
+        });
+    </script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../media/robotlogo.png" class="logo" alt="Logo">
+                <!-- Botón hamburguesa -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul class="menu" id="menuLinks">
+                    <li><a href="../index.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>Home</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M151.33-370.67q-46.66 0-79-32.47Q40-435.61 40-482t32.47-78.86q32.47-32.47 78.86-32.47V-702q0-27 19.84-46.83Q191-768.67 218-768.67h150.67q0-46.66 32.47-79Q433.61-880 480-880t78.86 32.47q32.47 32.47 32.47 78.86H742q27 0 46.83 19.84Q808.67-729 808.67-702v108.67q46.66 0 79 32.47Q920-528.39 920-482t-32.47 78.86q-32.47 32.47-78.86 32.47v184q0 27-19.84 46.84Q769-120 742-120H218q-27 0-46.83-19.83-19.84-19.84-19.84-46.84v-184ZM348.82-464q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.65-33.01-13.66-13.5-33.17-13.5t-33.01 13.65Q302-530.02 302-510.51t13.66 33.01q13.65 13.5 33.16 13.5Zm262.67 0q19.51 0 33.01-13.66 13.5-13.65 13.5-33.16 0-19.51-13.66-33.01-13.65-13.5-33.16-13.5-19.51 0-33.01 13.65-13.5 13.66-13.5 33.17t13.65 33.01q13.66 13.5 33.17 13.5ZM314.67-283.33h330.66V-350H314.67v66.67ZM218-186.67h524V-702H218v515.33Zm262-258Z"/></svg>Productos</a></li>
+                    <li><a href="./acercademi.html"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#F3F3F3"><path d="M480-400q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400ZM320-240h320v-23q0-24-13-44t-36-30q-26-11-53.5-17t-57.5-6q-30 0-57.5 6T369-337q-23 10-36 30t-13 44v23ZM720-80H240q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80Zm0-80v-446L526-800H240v640h480Zm-480 0v-640 640Z"/></svg>Sobre mi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1 id="titulo">Electrónica Arduino</h1>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/dupont.jpg" class="card-img-top w-50 mx-auto d-block" alt="Cables dupont conexiones">
+            <div class="card-body">
+                <h5 class="card-title">Pack 40 Cables dupont</h5>
+                <p class="card-text">Conecta tu arduino con la mayor facilidad.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Colores variados macho-macho</li>
+                <li class="list-group-item">20 cm de longitud</li>
+                <li class="list-group-item">$ 6.044</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/Sensor_Ultrasonido_Hc-sr04.jpg" class="card-img-top w-25 mx-auto d-block" alt="Sensor Ultrasonico Hc Sr04">
+            <div class="card-body">
+                <h5 class="card-title">Sensor Ultrasonico Hc Sr04</h5>
+                <p class="card-text">Detecta obstaculos a una cierta distancia del sensor.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Alimentación de 5 volts</li>
+                <li class="list-group-item">Medición de 2cm a 400cm</li>
+                <li class="list-group-item">$ 3.102</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/Sensor_De_Temperatura_Humedad_Dht_11_EfQqXwb.jpg" class="card-img-top w-25 mx-auto d-block" alt="Sensor Temperatura Dht 11">
+            <div class="card-body">
+                <h5 class="card-title">Sensor De Temperatura Humedad Dht 11</h5>
+                <p class="card-text">Sensor digital de temperatura y humedad relativa de bajo costo y fácil uso</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Alimentación de 3 a 5 volts</li>
+                <li class="list-group-item">Medición de 0 a 50 ºC</li>
+                <li class="list-group-item">$ 2.700</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/kit-brazo-robot-joystick_P1awtuF2.jpg" class="card-img-top w-50 mx-auto d-block" alt="Kit brazo con joystick">
+            <div class="card-body">
+                <h5 class="card-title">Brazo Robot De 4 Ejes</h5>
+                <p class="card-text">Kit Brazo robotico para principiantes basado en el Arduino UNO.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Peso 100 g, 4 servos MG90S</li>
+                <li class="list-group-item">Joystick botón controlador</li>
+                <li class="list-group-item">$ 43.299</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/kit-robot-bípedo-otto-con-brazos2.jpg" class="card-img-top w-25 mx-auto d-block" alt="Robot otto con brazos">
+            <div class="card-body">
+                <h5 class="card-title">Kit Robot Bípedo Otto 3.1</h5>
+                <p class="card-text">Kit Robot Bípedo Otto p/armar Programable Completo </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nano arduino, Shield, sensores, buzzer, 6 servos</li>
+                <li class="list-group-item">Modulo Bluetooth, cables, portapila + guía</li>
+                <li class="list-group-item">$134.999</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/kit_auto_robor_asoyoo_212.jpg" class="card-img-top w-50 mx-auto d-block" alt="Auto robot Asoyoo Arduino">
+            <div class="card-body">
+                <h5 class="card-title">Kit Coche Robot Osoyoo 2.0</h5>
+                <p class="card-text">Todo lo que Necesitas para Construir y Diseñar Tu Propio Coche Robótico: Placa, Cable USB, Módulo Controlador de Motor, WiFi, Bluetooth, Sensor Ultrasonido,Motor Servo</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">5 Módulos Seguimiento de Línea, 2 Sensores de Obstáculo, Zumbador, Control Remoto IR</li>
+                <li class="list-group-item">Dimensiones 26,00 x 16,00 x 12,00 cm</li>
+                <li class="list-group-item">$ 448.399</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/sensormq2.webp" class="card-img-top w-25 mx-auto d-block" alt="Sensor mq2">
+            <div class="card-body">
+                <h5 class="card-title">Sensor Gas Mq2 Arduino</h5>
+                <p class="card-text">Modulo Detector Sensor Gas Humo Monoxido Mq2 Mq-2 Arduino. Detecta: Hidrogeno, Isobutano, Gas Licuado, Metano, Monoxido de Carbono, Alcohol, Humo, Propano y otros gases nocivos.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Alimentación de 5 volts</li>
+                <li class="list-group-item">Rango de detección: 300 a 10000 ppm. Consumo: 150mA</li>
+                <li class="list-group-item">$ 3.710</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/Servo_Tower_Pro_Sg90_9g.jpg" class="card-img-top w-50 mx-auto d-block" alt="Mini Servo sg90">
+            <div class="card-body">
+                <h5 class="card-title">Mini Servo Tower Pro Sg90 9g</h5>
+                <p class="card-text">El servo SG90 Tower Pro es un servo miniatura de gran calidad y diminutas dimensiones, además es bastante económico. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Peso: 9 gramos. Giro 180º</li>
+                <li class="list-group-item">Voltaje de operación: 4.0 a 7.2 volts</li>
+                <li class="list-group-item">$ 5.548</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/Arduino_Uno_-_R3.jpg" class="card-img-top w-50 mx-auto d-block" alt="Arduino UNO">
+            <div class="card-body">
+                <h5 class="card-title">Arduino Uno R3 Atmega328</h5>
+                <p class="card-text">Arduino Uno R3 Chip Desmontable Atmega328 + Cable Usb Hexero</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Microcontrolador ATmega328P</li>
+                <li class="list-group-item">Voltaje de entrada  recomendado 7 V x 12 V</li>
+                <li class="list-group-item">$ 21.097</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/protoboard.webp" class="card-img-top w-50 mx-auto d-block" alt="Protoboard">
+            <div class="card-body">
+                <h5 class="card-title">Protoboard De 400 Puntos</h5>
+                <p class="card-text">Protoboard De 400 Puntos Experimentador Arduino Breadboard</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Largo x Ancho x Altura 8.3 cm x 5.4 cm x 0.8 cm</li>
+                <li class="list-group-item">Peso 9 g</li>
+                <li class="list-group-item">$ 2.632</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/conjunto-resistencias-diodos-led.jpg" class="card-img-top w-25 mx-auto d-block" alt="Leds y resistencias">
+            <div class="card-body">
+                <h5 class="card-title">Kit 50 leds y 210 Resistencias</h5>
+                <p class="card-text">Kit Componentes Electronicos Arduino Resistencias y Leds</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">210 Resistencias de Carbono - 30 de cada modelo 100R/1K/ 4.7K/10K/47K/100K/1M</li>
+                <li class="list-group-item">50 LEDs Green/Red/Yellow/White</li>
+                <li class="list-group-item">$ 7.599</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="../media/Piezo-Buzzer-Arduino-9mm-5-5mm.avif" class="card-img-top w-25 mx-auto d-block" alt="Piezo Buzzer">
+            <div class="card-body">
+                <h5 class="card-title">10 X Buzzer Zumbador Arduino</h5>
+                <p class="card-text">10 X Buzzer Zumbador Activo 5v Pic Arm Arduino Compatible</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Voltaje 5V</li>
+                <li class="list-group-item">Frecuencia emitida: 2300 ± 500 Hz</li>
+                <li class="list-group-item">$ 4.440</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Comprar</a>
+                <a href="#" class="card-link">Agregar al carrito</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <br><br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CTU5aFB1NvE?si=ANEpvUdBBwo1zsnR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+            <h2>Combos con descuentos</h2>
+            <table>
+                <tr>
+                    <th> Combos </th>
+                    <th> Kit </th>
+                    <th> Precio </th>
+                </tr>
+                <tr>
+                    <td> Combo 1 Sensores</td>
+                    <td> Sensor Ultrasonico + Sensor Temperatura </td>
+                    <td> $4500 </td>
+                </tr>
+                <tr>
+                    <td> Combo 2 Energico</td>
+                    <td> Arduino UNO + 4 servos sg90 </td>
+                    <td> $30000 </td>
+                </tr>
+                <tr>
+                    <td> Combo 3 Electronicos</td>
+                    <td> Protoboard 400 + cables dupont + leds y resistencias + buzzer </td>
+                    <td> $15000 </td>
+                </tr>
+            </table>
+            <br><br>
+    </main>
+    <footer>
+        <br>
+        <div>
+            <!-- Enlace absoluto -->
+            <a href="http://wa.me/+543794693257" target="_blank"><img src="../media/telefono.webp" class="imgpie"></a>
+            <a href="https://github.com/carlosLaboratorio/" target="_blank"><img src="../media/githubpng.png"  class="imgpie"></a>  
+            <a href="https://www.linkedin.com/in/carlos-aníbal-aguirre-b768a0a9" target="_blank"><img src="../media/linkedin.png" class="imgpie"></a>
+            <!-- Enlace interno -->
+            <a href="#titulo">⬆️</a>
+        </div>
+        <div>
+            <p><span>© 2025 Mi Sitio Web</span></p>
+        </div>
+    </footer>   
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuLinks = document.getElementById('menuLinks');
+
+        // abrir/cerrar menú al hacer clic en hamburguesa
+        hamburger.addEventListener('click', () => {
+        menuLinks.classList.toggle('active');
+        });
+
+        // cerrar menú al hacer clic en cualquier enlace
+        document.querySelectorAll('#menuLinks a').forEach(link => {
+        link.addEventListener('click', () => {
+            menuLinks.classList.remove('active');
+        });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

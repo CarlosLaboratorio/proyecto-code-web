@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Carlos Aníbal Aguirre</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
-<h3 align="center">Page published here: https://carloslaboratorio.github.io/proyecto-code-web/</h3>
+<h3 align="center">Page published here: <a href="https://carloslaboratorio.github.io/proyecto-code-web/" target="_blank">https://carloslaboratorio.github.io/proyecto-code-web/</a></h3>
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/carlos aníbal aguirre" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="carlos aníbal aguirre" height="30" width="40" /></a>

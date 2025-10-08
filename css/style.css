@@ -30,8 +30,37 @@ header {
   display: flex; /* Activa Flexbox */
   justify-content:space-between;  /*Separa el logo del menú */
   align-items: center; /* Centra verticalmente los elementos */
-  width: 100%;
 }
+
+/* ------------------------ ALGO DE ACERCA DE MI -----------------------------*/
+.lateral{
+  width: 25%;
+  background-color: rgb(2, 109, 73);
+  justify-content: space-between;
+}
+
+.main-content{
+  width: 75%;
+  background-color: #154D71;
+}
+
+.destacado {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 30px rgba(0,0,0,4);
+}
+
+.textblack{
+  color: #154D71;
+}
+
+/* -------------------------------------------------------------------------------*/
 
 .logo {
   margin-left: 50px; /* Empuja el logo a la izquierda */
@@ -130,13 +159,6 @@ table{
     margin-left: 10px;
 }
 
-.destacado {
-    height: 20rem;
-    margin-left: 25px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 30px rgba(0,0,0,4);
-}
-
 .card{
   box-shadow: 0px 4px 30px rgba(0,0,0,4);
 }
@@ -169,4 +191,34 @@ footer p{
 .mimapa{
   border-radius: 10px;
   box-shadow: 0px 4px 30px rgba(0,0,0,4);
+}
+
+.migrid{
+  display:grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemgrid {
+  width: auto;
+  height: auto;
+  background-color: #087295;
+  padding: 50px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(1, 5, 100,10);
+}
+
+@media (min-width:768px){
+  .migrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
 }

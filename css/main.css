@@ -2,7 +2,7 @@
 /* =================== VARIABLES ================== */
 /* =================== MIXIN PARA SOMBRAS ================== */
 /* =================== EXTEND PARA TARJETAS CON SOMBRA ================== */
-.mimapa, .destacado {
+.destacado, .mimapa {
   box-shadow: 0px 4px 30px rgb(0, 0, 0);
   border-radius: 20px;
 }
@@ -239,4 +239,4 @@ footer .imgpie {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

@@ -1,20 +1,4 @@
-/* =================== VARIABLES ================== */
-$azul-oscuro: #154D71;
-$azul-claro: #1C6EA4;
-$celeste: #33A1E0;
-$amarillo-claro: #FFF9AF;
-$sombra-base: 0px 4px 30px rgba(0,0,0,4);
-
-/* =================== MIXIN PARA SOMBRAS ================== */
-@mixin sombra($valor: $sombra-base) {
-box-shadow: $valor;
-}
-
-/* =================== EXTEND PARA TARJETAS CON SOMBRA ================== */
-%sombreado {
-@include sombra();
-border-radius: 20px;
-}
+@use 'variables' as *;
 
 /* =================== ESTILOS GENERALES ================== */
 

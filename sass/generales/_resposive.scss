@@ -1,0 +1,35 @@
+/* =================== BOTÓN HAMBURGUESA ================== */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    background: #444;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+    span {
+        width: 25px;
+        height: 3px;
+        background: white;
+    }
+}
+
+/* =================== RESPONSIVE ================== */
+@media (max-width: 768px) {
+    .menu {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    &.active {
+        display: flex;
+    }
+    }
+    .hamburger {
+        display: flex;
+        margin-left: 40px;
+        }
+}

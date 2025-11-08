@@ -1,0 +1,51 @@
+@use "./variables" as *;
+
+/* =================== SECCIONES ================== */
+.lateral {
+width: 25%;
+background-color: rgb(2, 109, 73);
+}
+
+.main-content {
+width: 75%;
+background-color: $azul-oscuro;
+}
+
+.destacado {
+@extend %sombreado;
+width: 70%;
+height: auto;
+margin: 20px 25px;
+}
+
+.textblack {
+color: $azul-oscuro;
+}
+
+/* =================== CUERPO PRINCIPAL ================== */
+main {
+background-color: $azul-claro;
+padding: 25px;
+text-align: center;
+}
+
+/* =================== PIE DE PÁGINA ================== */
+footer {
+    background-color: $celeste;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: normal;
+        width: 50%;
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-style: italic;
+    }
+    .imgpie {
+        width: 25px;
+        margin-right: 15px;
+    }
+}

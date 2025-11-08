@@ -1,0 +1,30 @@
+@use "../generales/variables" as *;
+
+/* =================== ANIMACIONES ================== */
+.animazoom,
+.animabt {
+    transition: 1s;
+
+    &:hover{
+    transform: scale(1.4);
+    }
+}
+
+.animabt svg:hover{
+fill: #f1910b;
+}
+
+#titulo {
+animation-name: animacion;
+animation-duration: 4s;
+animation-iteration-count: 4;
+animation-delay: 1s;
+}
+
+@keyframes animacion {
+0% { color: $amarillo-claro; transform: scale(1); }
+25% { color: #d08f0d; transform: scale(1.2); }
+50% { color: #f1910b; transform: scale(1); }
+75% { color: #a1bc08; transform: scale(0.8); }
+100% { color: $amarillo-claro; transform: scale(1); }
+}

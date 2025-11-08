@@ -2,7 +2,7 @@
 /* =================== VARIABLES ================== */
 /* =================== MIXIN PARA SOMBRAS ================== */
 /* =================== EXTEND PARA TARJETAS CON SOMBRA ================== */
-.destacado, .mimapa {
+.mimapa, .destacado {
   box-shadow: 0px 4px 30px rgb(0, 0, 0);
   border-radius: 20px;
 }
@@ -84,6 +84,82 @@ main {
   text-align: center;
 }
 
+/* =================== PIE DE PÁGINA ================== */
+footer {
+  background-color: #33A1E0;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  width: 50%;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  font-style: italic;
+}
+footer .imgpie {
+  width: 25px;
+  margin-right: 15px;
+}
+
+/* =================== TARJETAS Y TABLAS ================== */
+.card {
+  box-shadow: 0px 4px 30px rgb(0, 0, 0);
+}
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+.card-text {
+  color: #154D71;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+table {
+  margin: 20px auto;
+}
+
+.sobremi {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+/* =================== INDEX ================== */
+.mimapa {
+  border-radius: 10px;
+}
+
+.migrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .migrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.itemgrid {
+  width: auto;
+  height: auto;
+  background-color: #087295;
+  padding: 50px;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(1, 5, 100);
+}
+
 /* =================== BOTÓN HAMBURGUESA ================== */
 .hamburger {
   display: none;
@@ -119,82 +195,6 @@ main {
     margin-left: 40px;
   }
 }
-/* =================== TARJETAS Y TABLAS ================== */
-.card {
-  box-shadow: 0px 4px 30px rgb(0, 0, 0);
-}
-.card-img-top {
-  height: 180px;
-  object-fit: cover;
-}
-.card-text {
-  color: #154D71;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-table {
-  margin: 20px auto;
-}
-
-.sobremi {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-}
-
-/* =================== PIE DE PÁGINA ================== */
-footer {
-  background-color: #33A1E0;
-}
-footer div {
-  display: flex;
-  justify-content: center;
-  align-items: normal;
-  width: 50%;
-}
-footer a {
-  text-decoration: none;
-}
-footer p {
-  font-style: italic;
-}
-footer .imgpie {
-  width: 25px;
-  margin-right: 15px;
-}
-
-/* =================== INDEX ================== */
-.mimapa {
-  border-radius: 10px;
-}
-
-.migrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 20px;
-  column-gap: 20px;
-  align-items: center;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  .migrid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.itemgrid {
-  width: auto;
-  height: auto;
-  background-color: #087295;
-  padding: 50px;
-  margin: 15px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px rgb(1, 5, 100);
-}
-
 /* =================== ANIMACIONES ================== */
 .animazoom,
 .animabt {

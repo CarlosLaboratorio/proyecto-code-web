@@ -1,0 +1,30 @@
+@use "../generales/variables" as *;
+
+/* =================== INDEX ================== */
+.mimapa {
+@extend %sombreado;
+border-radius: 10px;
+}
+
+.migrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+.itemgrid {
+width: auto;
+height: auto;
+background-color: #087295;
+padding: 50px;
+margin: 15px;
+border-radius: 5px;
+@include sombra(5px 5px 5px rgba(1, 5, 100, 4));
+}
